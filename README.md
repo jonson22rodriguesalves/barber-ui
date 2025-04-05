@@ -21,21 +21,21 @@ Barber Shop UI - Sistema de Agendamento para Barbearias
 </p>
 
 ## 🏗️ Arquitetura do Projeto
-src/app/
-├── api-client/
-│ ├── clients/
-│ │ ├── clients.service.ts # Operações CRUD de clientes
-│ │ ├── iclients.service.ts # Interface do serviço de clientes
-│ │ └── client.models.ts # Modelos e DTOs de clientes
-│ └── schedules/
-│ ├── schedules.service.ts # Operações de agendamento
-│ ├── ischedules.service.ts # Interface do serviço de agendamentos
-│ └── schedule.models.ts # Modelos e DTOs de agendamentos
-├── commons/ # Componentes compartilhados
-├── services/ # Serviços principais
-└── features/ # Módulos de funcionalidades
-├── clients/ # Gestão de clientes
-└── schedules/ # Sistema de agendamentos
+* src/app/
+* ├── api-client/
+* │ ├── clients/
+* │ │ ├── clients.service.ts # Operações CRUD de clientes
+* │ │ ├── iclients.service.ts # Interface do serviço de clientes
+* │ │ └── client.models.ts # Modelos e DTOs de clientes
+* │ └── schedules/
+* │ ├── schedules.service.ts # Operações de agendamento
+* │ ├── ischedules.service.ts # Interface do serviço de agendamentos
+* │ └── schedule.models.ts # Modelos e DTOs de agendamentos
+* ├── commons/ # Componentes compartilhados
+* ├── services/ # Serviços principais
+* └── features/ # Módulos de funcionalidades
+* ├── clients/ # Gestão de clientes
+* └── schedules/ # Sistema de agendamentos
 
 
 ## 📡 Interfaces Principais
