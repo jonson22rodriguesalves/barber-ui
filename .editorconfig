@@ -1,0 +1,32 @@
+# Editor configuration, see https://editorconfig.org
+
+# Define que este é o arquivo raiz de configuração do EditorConfig.
+# As configurações aqui serão aplicadas a todo o projeto.
+root = true
+
+# Configurações aplicadas a todos os arquivos
+[*]
+# Define a codificação de caracteres como UTF-8
+charset = utf-8
+# Usa espaços para indentação (ao invés de tabs)
+indent_style = space
+# Define 2 espaços para cada nível de indentação
+indent_size = 2
+# Insere uma nova linha no final do arquivo
+insert_final_newline = true
+# Remove espaços em branco no final das linhas
+trim_trailing_whitespace = true
+
+# Configurações específicas para arquivos TypeScript
+[*.ts]
+# Usa aspas simples para strings
+quote_type = single
+# Desabilita aspas duplas no IntelliJ/WebStorm para TypeScript
+ij_typescript_use_double_quotes = false
+
+# Configurações específicas para arquivos Markdown
+[*.md]
+# Desativa a limitação de tamanho de linha
+max_line_length = off
+# Mantém espaços em branco no final das linhas (importante para formatação MD)
+trim_trailing_whitespace = false

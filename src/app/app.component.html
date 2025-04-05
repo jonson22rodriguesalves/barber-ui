@@ -1,0 +1,20 @@
+<!-- 
+  Estrutura principal do template da aplicação
+  Utiliza componentes Angular para criar o layout:
+  - Cabeçalho com título dinâmico
+  - Menu de navegação
+  - Área de conteúdo dinâmico
+-->
+
+<!-- Componente de Cabeçalho -->
+<!-- Exibe o título da página atual (vinculado à propriedade 'title' do AppComponent) -->
+<app-card-header>{{title}}</app-card-header>
+
+<!-- Componente de Menu -->
+<!-- Contém o menu principal de navegação da aplicação -->
+<app-menu-bar></app-menu-bar>
+
+<!-- Saída do Roteador -->
+<!-- Diretiva Angular que serve como container para componentes carregados via rota -->
+<!-- A sintaxe '/' indica tag auto-fechada (sintaxe do Angular 16+) -->
+<router-outlet />

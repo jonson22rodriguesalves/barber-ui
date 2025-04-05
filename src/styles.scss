@@ -1,0 +1,17 @@
+/*
+ * Arquivo de estilos globais da aplicação.
+ * Estilos definidos aqui serão aplicados em toda a aplicação.
+ * Pode-se também importar outros arquivos de estilo neste arquivo.
+ */
+
+/* Garante que html e body ocupem 100% da altura da viewport */
+html, body { 
+  height: 100%; 
+}
+
+/* Configurações base para o elemento body */
+body { 
+  margin: 0; /* Remove margens padrão do navegador */
+  /* Define a família de fontes padrão com fallback */
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}

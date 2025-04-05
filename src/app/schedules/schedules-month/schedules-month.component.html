@@ -1,0 +1,15 @@
+<!-- 
+  Template principal do componente de agendamentos mensais
+  Utiliza o componente ScheduleCalendar para exibir e interagir com os agendamentos
+   Responsável por:
+  - Exibir o calendário de agendamentos
+  - Delegar ações para o componente ScheduleCalendar
+  - Gerenciar a comunicação com serviços
+-->
+<app-schedule-calendar 
+    [monthSchedule]="monthSchedule"
+    (onDateChange)="onDateChange($event)"
+    (onConfirmDelete)="onConfirmDelete($event)"
+    (onScheduleClient)="onScheduleClient($event)"
+    [clients]="clients">
+</app-schedule-calendar>
