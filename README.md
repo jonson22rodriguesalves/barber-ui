@@ -13,13 +13,6 @@ Barber Shop UI - Sistema de Agendamento para Barbearias
 </div>
 <!--END_SECTION:header-->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
-  <img src="https://img.shields.io/badge/API_REST-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API" />
-</p>
-
 ## 🏗️ Arquitetura do Projeto
 * src/app/
 * ├── api-client/
